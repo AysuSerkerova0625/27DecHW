@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 1.1. Verilmiş bir <p> elementinin yazı rəngini qırmızı edin. -->
+    <p class="red-clr">Red text</p>
+    <!-- 1.2. Bütün <h1> başlıqlarını mavi və qalın (bold) göstərin. -->
+    <h1 class="blod-blue-text">Blue bold styled text</h1>
+    <!-- 1.3. Linklərin altıxətini (underline) deaktiv edin və hover olarkən yaşıl
+    rəng verin. -->
+    <a href="#"
+      >Link without underline and text color gets green when hovered</a
+    >
+    <!-- 1.4. Veb səhifədə bütün paragraf yazılarını Verdana fontuna dəyişin. -->
+    <div class="verdana-font-family">
+      <strong>Verdana font family</strong>
+      <p>Text in Verdana font family</p>
+      <p>Text in Verdana font family</p>
+      <p>Text in Verdana font family</p>
+      <p>Text in Verdana font family</p>
+      <p>Text in Verdana font family</p>
+    </div>
+    <!-- 2.1. Bir <div> elementinin yazı ölçüsünü 24px edin. -->
+    <div class="font-size-24px">
+      <p>Text with 24px font size</p>
+      <p>Text with 24px font size</p>
+      <p>Text with 24px font size</p>
+      <p>Text with 24px font size</p>
+      <p>Text with 24px font size</p>
+    </div>
+    <!-- 2.2. Bütün h2 elementlərinin yazı tərzini italic edin. -->
+    <div class="h2-italic">
+      <h2>H2 tag with italic font style</h2>
+      <h2>H2 tag with italic font style</h2>
+      <h2>H2 tag with italic font style</h2>
+      <h2>H2 tag with italic font style</h2>
+    </div>
+    <!-- 2.3. Veb səhifədəki bütün başlıqların line-height dəyərini 1.5 edin. -->
+    <div class="line-height">
+      <h1>Text with line height 1.5</h1>
+      <h2>Text with line height 1.5</h2>
+      <h3>Text with line height 1.5</h3>
+    </div>
+    <!-- 2.4. Linklərin fontunu Arial və yazı ölçüsünü 14px təyin edin. -->
+    <a id="arial-font-14px" href="#"
+      >Link in Arial font family and size of 14px</a
+    >
+    <!-- 3.1. Bir <section> elementinə gradient fon verin. -->
+    <section id="gradient"></section>
+    <!-- 3.2. Səhifənin fon rəngini #f4f4f4 edin. -->
+    <!-- 3.3. Bir <div> elementinə şəkil fonu əlavə edin və mərkəzdə yerləşdirin. -->
+    <div class="div-background-image"></div>
+    <!-- 3.4. Hover olarkən bir elementin fon rəngini dəyişdirin. -->
+    <div class="hover">
+      <h1>The box changes its color when hovered on</h1>
+    </div>
+    <!-- 4.1. Bir <div> elementinin iç boşluqlarını 20px edin. -->
+    <div class="padding-20px">
+      <h1>Box with 20px padding</h1>
+    </div>
+    <!-- 4.2. Yalnız sol və sağ tərəfdən padding verin (10px). -->
+    <div class="padding-lr-10px">
+      <h1>Box with 10px padding from left and right</h1>
+    </div>
+    <!-- 4.3. Bir <button> elementinə fərqli tərəflər üçün padding tətbiq edin (yuxarı: 5px, sağ: 15px, aşağı: 5px, sol: 15px). -->
+    <p>Padding values for button tag</p>
+    <button>Submit</button>
+    <!-- 4.4. İç içə yerləşdirilmiş elementlərə müxtəlif padding verərək fərqləndirin. -->
+    <div class="parent">
+      <span>Div element with padding:50px 10px</span>
+      <div class="child">
+        <span>Div element with padding:10px 20px</span>
+      </div>
+    </div>
+    <!-- 5.1. Bir <h3> elementinə 30px margin verin. -->
+    <h3 class="margin-30px">H3 tag with margin 30px</h3>
+    <!-- 5.2. Bir elementin yuxarı və aşağı tərəflərinə auto margin verərək mərkəzə gətirin. -->
+    <div class="margin-auto">Box with margin auto</div>
+    <!-- 5.3. Linklərin sağ tərəfinə 15px margin əlavə edin. -->
+    <a class="link-margin-15px" href="#">Link with margin value</a>
+    <!-- 5.4. Səhifədə bir elementə margin: 0 auto; verərək ortalayın. -->
+    <div class="margin-0-auto">Box with margin 0 auto</div>
+    <!-- 6.1. Bir <div> elementinə 3px qalınlığında, qara sərhəd verin. -->
+    <div class="div-border">Box with 3px black border</div>
+    <!-- 6.2. Yalnız alt sərhəd verin (border-bottom). -->
+    <div class="border-bottom">Box with border-bottom</div>
+    <!-- 6.3. Bütün şəkil elementlərinə yuvarlaq künclər (border-radius: 10px) tətbiq edin. -->
+    <img src="images/2021-11-20.jpg" alt="" />
+    <!-- 6.4. Formanın giriş sahəsinə (input) 2px-lik qırmızı sərhəd verin. -->
+    <form action="">
+      <input
+        class="border-red-2px"
+        type="text"
+        placeholder="border-red-2px-input"
+      />
+    </form>
+    <!-- 7.1. Fokusda olan <input> sahəsinə mavi outline əlavə edin. -->
+    <form action="">
+      <input
+        class="outline-green"
+        type="text"
+        placeholder="Green outline when focused on"
+      />
+    </form>
+    <!-- 7.2. Bir <button> elementinə 2px-lik boz outline verin. -->
+    <p>Button with outline-2px-gray</p>
+    <button class="outline-2px-gray">Button</button>
+    <!-- 7.3. <div> hover olarkən fərqli rəngdə outline görünsün. -->
+    <div class="hover-outline">Outline color changes when hovered on</div>
+    <!-- 7.4. Outline qalınlığını 5px edin və rəngini green edin. -->
+    <div class="outline-5px-green">Box with outline-5px-green</div>
+    <!-- 8.1. Bir <div> elementinin daşan hissələrini gizlədin (overflow: hidden). -->
+    <div class="overflow-hidden">
+      <b>Overflow hidden</b>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod soluta
+        odio deleniti vitae, fuga explicabo architecto. Atque ratione vero
+        corporis quibusdam ab blanditiis optio quos neque quae veritatis est
+        sapiente, necessitatibus, quis facilis consequatur molestias quaerat
+        nesciunt, autem omnis officiis! Delectus dolore expedita neque numquam
+        ab impedit iusto quasi sunt eos suscipit amet, quibusdam quod vitae
+        aliquid natus nemo, velit facere dolorem omnis. Praesentium a nulla
+        delectus non commodi doloremque molestiae sint, fuga qui error, odit
+        rerum quo, laboriosam aut fugit corrupti veniam id. Eaque iure facere
+        rem expedita natus minus quam. Assumenda ipsa dolores mollitia et
+        consectetur modi iure?
+      </p>
+    </div>
+    <!-- 8.2. Mətnin daşdığı yerdə scroll çıxarın (overflow: scroll). -->
+    <div class="overflow-scroll">
+      <b>Overflow scroll</b>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod soluta
+        odio deleniti vitae, fuga explicabo architecto. Atque ratione vero
+        corporis quibusdam ab blanditiis optio quos neque quae veritatis est
+        sapiente, necessitatibus, quis facilis consequatur molestias quaerat
+        nesciunt, autem omnis officiis! Delectus dolore expedita neque numquam
+        ab impedit iusto quasi sunt eos suscipit amet, quibusdam quod vitae
+        aliquid natus nemo, velit facere dolorem omnis. Praesentium a nulla
+        delectus non commodi doloremque molestiae sint, fuga qui error, odit
+        rerum quo, laboriosam aut fugit corrupti veniam id. Eaque iure facere
+        rem expedita natus minus quam. Assumenda ipsa dolores mollitia et
+        consectetur modi iure?
+      </p>
+    </div>
+    <!-- 8.3. Yatay daşan məzmunu avtomatik gizlədin (overflow-x: auto). -->
+    <div class="overflow-x-auto">
+      <b>Overflow x auto</b>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quisquam?
+      </p>
+    </div>
+    <!-- 8.4. Overflow dəyərini visible edin və nəticəni müşahidə edin. -->
+    <div class="overflow-x-visible">
+      <b>Overflow x visible</b>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quisquam?
+      </p>
+    </div>
+  </body>
+</html>
